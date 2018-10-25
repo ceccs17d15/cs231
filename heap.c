@@ -57,3 +57,4 @@ void down_adjust(int heap[],int i)
 		}
 	}
 }
+ 
