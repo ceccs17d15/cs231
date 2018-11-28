@@ -1,92 +1,53 @@
-include <stdio.h>
-#include <stdlib.h>
-struct node {
-	int exponent;
-	int coefficient;
-	struct node *next;
-}*Polynomial;
-int deleteAll() {
-	struct node *ptr = Polynomial, *prevPtr;
-	while (ptr != NULL) {
-		prevPtr = ptr;
-		ptr = ptr->next;
-		free(prevPtr);
-	}
-	Polynomial->next = NULL;
-	return (0);
-}
-struct node *newNode() {
-	struct node *newptr = malloc(sizeof(struct node));
-	if (newptr == NULL) {
-		printf("Memory overflow");
-		deleteAll();
-		exit(0);
-	}
-	return (newptr);
-}
-int insertNodeEnd(int exponent, int coefficient) {
-	struct node *newptr = newNode(), *currentNode = Polynomial;
+#include<stdio.h>
+#include<stdlib.h>
 
-	while (currentNode->next != NULL) {
-		currentNode = currentNode->next;
-	}
+struct node
+{
+    int exp,coef;
+    struct node *link;
+};
 
-	newptr->next = currentNode->next;
-	newptr->exponent = exponent;
-	newptr->coefficient = coefficient;
-	currentNode->next = newptr;
-	return (0);
-}
+void main()
+{
+    struct node *temp,*head,*ptr;
+    int ex,coe,c;
+    temp=(struct node*)malloc(sizeof(struct node));
+    temp->exp=0;
+    temp->coef=0;
+    temp->link=NULL;
+    ptr=head;
 
-int printPolynomial() {
-	struct node *currentNode = Polynomial->next;
-	printf("\nF(p) = ");
-	while (currentNode != NULL) {
-		if (currentNode->coefficient != 0) {
-			if (currentNode->coefficient != 1) {
-				printf("%d", currentNode->coefficient);
+    do
+    {
+	printf("Enter coefficient: ");
+	scanf("%d",&coe);
+	printf("Enter exponent: ");
+	scanf("%d",&ex);
+	temp=(struct node*)malloc(sizeof(struct node));
+	temp->exp=ex;
+	temp->coef=coe;
+	temp->link=NULL;
+	ptr->link=temp;
+	ptr=ptr->link;
+	printf("1. Add more elements\n2. Continue\nEnter choice: ");
+	scanf("%d",&c);
+    }while(c==1);
+    printf("1. Display polynomial\n2. Exit\nEnter choice: ");
+    scanf("%d",&c);
+    if(c==1)
+    {
+	ptr=head->link;
+	printf("F(p) = ");
+	while(ptr!=NULL)
+		{
+			if(ptr->coef!=0)
+			{
+	    		printf("%d ", ptr->coef);
+				if(ptr->exp!=0)
+					printf("p^%d + ",ptr->exp);
 			}
-			if (currentNode->exponent != 0) {
-				printf("x^%d", currentNode->exponent);
-			} else {
-        if (currentNode->coefficient == 1) {
-          printf("1");
-        }
-      }
-			if (currentNode->next != NULL) {
-				if (currentNode->next->coefficient != 0)
-					printf(" + ");
-			}
+	    		ptr=ptr->link;
 		}
-		currentNode = currentNode->next;
-	}
-	printf("\n");
-	return (0);
-}
-int showMenu() {
-	char choice;
-	int coefficient, exponent;
-	do {
-		printf("Enter coefficient : ");
-		scanf("%d", &coefficient);
-		printf("Enter exponent : ");
-		scanf("%d", &exponent);
-		insertNodeEnd(exponent, coefficient);
-		printf("\n1. Add more terms\n");
-		printf("2. Print and exit\n");
-		printf("Enter your choice : ");
-		scanf(" %c", &choice);
-		printf("\n");
-	} while (choice != '2');
-	return(0);
-}
-int main() {
-	Polynomial = malloc(sizeof(struct node));
-	Polynomial->coefficient = 0;
-	Polynomial->exponent = 0;
-	Polynomial->next = NULL;
-	showMenu();
-	printPolynomial();
-	deleteAll();
-	return (0);
+    }
+	
 }
