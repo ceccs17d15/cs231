@@ -1,4 +1,6 @@
-  
+  Athira Suresh
+  Roll no:15
+
 #include <stdio.h>
 void main()
 {
@@ -15,6 +17,10 @@ void main()
 	else
 printf("THE NUMBER %d DOES NOT EXIST IN THE ARRAY",key);
 }
+output:
 
-
-
+user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+ENTER A NUMBER 3
+THE NUMBER 3 DOES NOT EXIST IN THE ARRAY
+ENTER A NUMBER 12
+THE NUMBER 12 EXISTS IN THE ARRAY
