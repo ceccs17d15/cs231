@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include<stdio.h>
 #include<conio.h>
 #define n 5
@@ -54,4 +57,4 @@ void main()
     }
     getch();
 }
-
+output:
