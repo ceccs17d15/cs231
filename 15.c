@@ -54,3 +54,28 @@ void main()
     }
 	
 }
+output:
+Enter coefficient: 3
+Enter exponent: 3
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 4
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 2
+Enter exponent: 1
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 4
+Enter exponent: 0
+1. Add more elements
+2. Continue
+Enter choice: 2
+1. Display polynomial
+2. Exit
+Enter choice: 1
+F(p) = 3 p^3 + 4 p^2 + 2 p^1 + 4 
