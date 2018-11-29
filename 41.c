@@ -1,3 +1,5 @@
+Athira Suresh
+Roll no:15
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -215,3 +217,51 @@ int main() {
   ROOT=NULL;
 	showMenu();
 }
+output:
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data to be inserted : 3
+Succesfully inserted
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data to be inserted : 4
+Successfully inserted
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data to be inserted : 5
+Successfully inserted
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 2
+Enter data to be searched : 5
+Node found
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice:
