@@ -1,3 +1,6 @@
+Athira suresh
+roll no:15
+
 # include<stdio.h>
 # define MAX 5
 
@@ -112,4 +115,37 @@ int main()
 	
 	return 0;
 }
+output:1.Insert
+2.Delete
+3.Display
+4.Quit
+Enter your choice 1
+Input the element for insertion in queue 23
+1.Insert
+2.Delete
+3.Display
+4.Quit
+Enter your choice 1
+Input the element for insertion in queue 34
+1.Insert
+2.Delete
+3.Display
+4.Quit
+Enter your choice 1
+Input the element for insertion in queue 5
+1.Insert
+2.Delete
+3.Display
+4.Quit
+Enter your choice 2
+Element deleted from queue is : 231.Insert
+2.Delete
+3.Display
+4.Quit
+Enter your choice 3
+Queue elements 34 5 1.Insert
+2.Delete
+3.Display
+4.Quit
+Enter your choice 
 
