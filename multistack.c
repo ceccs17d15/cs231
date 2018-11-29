@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include<stdio.h>
 #define MAX_X 5
 #define MAX_Y 5
@@ -117,3 +120,57 @@ do
          while(choice!=7);
 
 }
+output:
+user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+1.Push_X
+2.Push_Y
+
+3.Pop_X
+4.Pop_Y
+
+5.Display_X
+6.Display_Y
+
+7.Exit
+
+Enter Choice1
+Enter The info To Push3
+1.Push_X
+2.Push_Y
+
+3.Pop_X
+4.Pop_Y
+
+5.Display_X
+6.Display_Y
+
+7.Exit
+
+Enter Choice2
+Enter The info To Push34
+1.Push_X
+2.Push_Y
+
+3.Pop_X
+4.Pop_Y
+
+5.Display_X
+6.Display_Y
+
+7.Exit
+
+Enter Choice5
+3,
+1.Push_X
+2.Push_Y
+
+3.Pop_X
+4.Pop_Y
+
+5.Display_X
+6.Display_Y
+
+7.Exit
+
+Enter Choice
+
