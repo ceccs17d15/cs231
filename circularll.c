@@ -1,3 +1,6 @@
+Athira Suresh
+roll no:15
+
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
@@ -146,3 +149,30 @@ void displayList(struct node ** head)
         n++;
     }while(current != *head);
 }
+output:
+CIRCULAR LINKED LIST PROGRAM 
+1. Create List
+2. Display list
+3. Delete all by key
+0. Exit
+Enter your choice1
+Enter number of nodes to create: 5
+Enter data of 1 node 34
+Enter data of 2 node 25
+Enter data of 3 node 12
+Enter data of 4 node 16
+Enter data of 5 node 7
+CIRCULAR LINKED LIST CREATED SUCCESSFULLY CIRCULAR LINKED LIST PROGRAM 
+1. Create List
+2. Display list
+3. Delete all by key
+0. Exit
+Enter your choice3
+Enter key to delete from list: 12
+ CIRCULAR LINKED LIST PROGRAM 
+1. Create List
+2. Display list
+3. Delete all by key
+0. Exit
+Enter your choice2
+DATA IN THE LISTData 1 = 34Data 2 = 25Data 3 = 16Data 4 = 7
