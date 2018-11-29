@@ -119,4 +119,16 @@ void displayList()
             temp = temp->next;                 
         }
     }
-}
+output:
+    Enter the total number of nodes: 3
+Enter the data of node 1: 2
+Enter the data of node 2: 3
+Enter the data of node 3: 4
+SINGLY LINKED LIST CREATED SUCCESSFULLYData in the listData = 2
+Data = 3
+Data = 4
+enter data to insert at end of the list5
+DATA INSERTED SUCCESSFULLYData in the listData = 2
+Data = 3
+Data = 4
+Data = 5
