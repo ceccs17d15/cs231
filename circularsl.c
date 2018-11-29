@@ -1,3 +1,6 @@
+Athira Suresh
+roll no:15
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -187,3 +190,68 @@ void insertAtN(int data, int position)
         printf("NODE INSERTED SUCCESSFULLY");
     }
 }
+output:CIRCULAR LINKED LIST PROGRAM
+1. Create List
+2. Display list
+3. Insert at beginning
+4. Insert at any position
+0. Exit
+Enter your choice  1
+Enter the total number of nodes in list 4
+Enter data of 1 node: 1
+Enter data of 2 node 2
+Enter data of 3 node 3
+Enter data of 4 node 4
+CIRCULAR LINKED LIST CREATED SUCCESSFULLY
+
+
+
+
+CIRCULAR LINKED LIST PROGRAM
+1. Create List
+2. Display list
+3. Insert at beginning
+4. Insert at any position
+0. Exit
+Enter your choice  3
+Enter data to be inserted at beginning 6
+NODE INSERTED SUCCESSFULLY
+
+
+
+
+CIRCULAR LINKED LIST PROGRAM
+1. Create List
+2. Display list
+3. Insert at beginning
+4. Insert at any position
+0. Exit
+Enter your choice  2
+DATA IN THE LISTData 1 = 6Data 2 = 1Data 3 = 2Data 4 = 3Data 5 = 4
+
+
+
+
+CIRCULAR LINKED LIST PROGRAM
+1. Create List
+2. Display list
+3. Insert at beginning
+4. Insert at any position
+0. Exit
+Enter your choice  4
+Enter node position 7
+Enter data you want to insert at 7 position 2
+NODE INSERTED SUCCESSFULLY
+
+
+
+
+CIRCULAR LINKED LIST PROGRAM
+1. Create List
+2. Display list
+3. Insert at beginning
+4. Insert at any position
+0. Exit
+Enter your choice  2
+DATA IN THE LISTData 1 = 6Data 2 = 2Data 3 = 1Data 4 = 2Data 5 = 3Data 6 = 4
+
