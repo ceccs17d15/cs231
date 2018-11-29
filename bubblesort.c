@@ -1,3 +1,5 @@
+Athira Suresh
+Roll no:15
 #include<stdio.h>
 int main()
 { 	int a[10],i,j,temp,n;
