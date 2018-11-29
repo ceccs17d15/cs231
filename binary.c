@@ -37,5 +37,16 @@ Roll no:15
        if (first > last)
           printf("Not found! %d isn't present in the list", search);
      
-       return 0;  
+       return 0;
+}
+output:
+Enter number of elements5
+Enter 5 integers7
+8
+2
+9
+1
+Enter value to find2
+2 found at location 3
+    
     }
