@@ -1,3 +1,6 @@
+Athira suresh
+Roll no:15
+
 #include<stdio.h>
  void main()
  {
@@ -48,3 +51,7 @@
  else
   printf("Position may be become %d",mid+1);
  }
+output:user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+Enter the size of the array4
+Enter the elements to be sorted3 5 1 7 
+Sorted array1 3 5 7
