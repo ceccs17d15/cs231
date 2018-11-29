@@ -170,4 +170,24 @@ void poly_mult(struct node *p1, struct node *p2)
     }   
     printf("Multiplied polynomial is : ");
     display(start3);
-}       
+} 
+output:
+user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+Enter polynomial 1 :
+Enter the number of terms  3
+Enter coeficient for term 1 : 2
+Enter exponent for term 1 : 2
+Enter coeficient for term 2 : 3
+Enter exponent for term 2 : 1
+Enter coeficient for term 3 : 5
+Enter exponent for term 3 : 0
+Enter polynomial 2 :
+Enter the number of terms  2
+Enter coeficient for term 1 : 5
+Enter exponent for term 1 : 2
+Enter coeficient for term 2 : 6
+Enter exponent for term 2 : 0
+Polynomial 1 is :  (2.0x^2) + (3.0x^1) + (5.0x^0)
+Polynomial 2 is :  (5.0x^2) + (6.0x^0)
+Added polynomial is : (7.0x^2) + (3.0x^1) + (11.0x^0)
+Multiplied polynomial is : (10.0x^4) + (15.0x^3) + (12.0x^2) + (25.0x^2) + (18.0x^1) + (30.0x^0)
