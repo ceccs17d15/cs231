@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include<stdio.h>
 
 int stack[100],choice,n,top,x,i;
@@ -90,4 +93,16 @@ void display()
     }
    
 }
-
+output:
+user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+Enter the size of STACK[MAX=100]4
+ STACK OPERATIONS USING ARRAY
+	--------------------------------1.PUSH 2.POP 3.DISPLAY 4.EXITEnter the Choice1
+ Enter a value to be pushed:4
+Enter the Choice1
+ Enter a value to be pushed:6
+Enter the Choice1
+ Enter a value to be pushed:7
+Enter the Choice2
+The popped elements is 7Enter the Choice3
+The elements in STACK 64Press Next ChoiceEnter the Choice
