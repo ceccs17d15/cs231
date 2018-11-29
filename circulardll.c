@@ -148,3 +148,9 @@ int getListLength()
 
     return count;
 }
+output:
+Insert at head: 5
+Insert at tail: 15, 43, 23
+Insert at head: 12
+Insert at POSITION: 2, VALUE: 500
+Insert at tail: 66, 99, 65
