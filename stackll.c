@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include <stdio.h>
 #include <stdlib.h>
  
@@ -162,3 +165,21 @@ void destroy()
     printf("All stack elements destroyed");
     count = 0;
 }
+output:user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+
+ 1 - Push
+ 2 - Pop
+ 3 - Top
+ 4 - Empty
+ 5 - Exit
+ 6 - Dipslay
+ 7 - Stack Count
+ 8 - Destroy stackEnter choice1
+Enter data 4
+Enter choice1
+Enter data 3
+Enter choice1
+Enter data 2
+Enter choice6
+2 3 4 Enter choice
+
