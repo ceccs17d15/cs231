@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include<stdio.h>
 #include<malloc.h>
 typedef struct Node
@@ -82,3 +85,11 @@ void display(node *start)
        	start = start->next;
      }
 }
+output:
+Enter number of node4
+Enter the info for node 1 54
+Enter the info for node 2 32
+Enter the info for node 3 21
+Enter the info for node 4 12
+The list is54322112Enter the item to be inserted at begining1
+Now the list is154322112
