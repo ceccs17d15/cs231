@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include<stdio.h> 
 void swap(int* a, int* b) 
 { 
@@ -46,3 +49,5 @@ int main()
     printArray(arr, n); 
     return 0; 
 } 
+output:user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+Sorted array: n2 4 6 9 10 n
