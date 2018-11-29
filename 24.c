@@ -87,3 +87,6 @@ int main() {
   }
   printf("Final result : %d\n", operandStack[0]);
 }
+output:
+Enter the infix expression : (3+4)*3
+Final result : 21
