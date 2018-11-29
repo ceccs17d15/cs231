@@ -140,3 +140,34 @@ int main() {
 	initialise();
 	showMenu();
 }
+output:
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data to be inserted : 2
+Successfully inserted
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data of the parent node : 2
+Enter data to be inserted : 3
+Where do you want to enter the data (L/R): 2
+Successfully inserted
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 
