@@ -39,3 +39,18 @@
      
       return 0;
 }
+output:
+Enter number of elements
+5
+Enter 5 integers
+1
+4
+2
+7
+3
+Sorted list in ascending order:
+1
+2
+3
+4
+7
