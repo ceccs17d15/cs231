@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include<stdio.h>
 void create(int []);
 void down_adjust(int [],int);
@@ -57,4 +60,11 @@ void down_adjust(int heap[],int i)
 		}
 	}
 }
- 
+ output:
+Enter no. of elements:5
+Enter elements:1
+5
+7
+2
+8
+Array after sorting1 2 5 7 8 
