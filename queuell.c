@@ -1,3 +1,6 @@
+Athira suresh
+Roll no:15
+
 #include <stdio.h>
 #include <stdlib.h>
  
@@ -152,3 +155,17 @@ void empty()
     else
        printf("Queue not empty");
 }
+output:user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+
+ 1 - Enque
+ 2 - Deque
+ 3 - Front element
+ 4 - Empty
+ 5 - Exit
+ 6 - Display
+ 7 - Queue sizeEnter choice1
+Enter data  43
+Enter choice1
+Enter data  34
+Enter choice6
+43 34Enter choice
