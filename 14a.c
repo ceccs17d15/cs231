@@ -152,3 +152,31 @@ int main()
 	
 	return (0);
 }
+output:
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
+Enter your choice : 5
+
+
+Linked List
+HEADER->NULL
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
+Enter your choice : 6
+
+Empty linked list.
+Deletion failed.
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
