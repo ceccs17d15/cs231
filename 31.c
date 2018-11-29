@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 
 #include<stdio.h>
 
@@ -234,3 +237,61 @@ break;
 }
 
 }
+output:
+      What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+What no. do you want to push in queue
+23
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+What no. do you want to push in queue
+45
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+What no. do you want to push in queue
+91
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+2
+Number poped from queue is 23
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+3
+Size of queue is 2
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+4
+Queue is -->> 45 91 
+
