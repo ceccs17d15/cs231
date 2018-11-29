@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include<stdio.h>
  
 void mergesort(int a[],int i,int j);
