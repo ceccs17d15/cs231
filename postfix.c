@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include<stdio.h>
 int stack[20];
 int top = -1;
@@ -62,4 +65,6 @@ int main()
         return 0;
 
 }
-
+output:user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+Enter the expression123*2+
+The result of expression 123*2+  =  8
