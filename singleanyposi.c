@@ -134,3 +134,20 @@ void displayList()
         }
     }
 }
+output:
+Enter the total number of nodes: 4
+Enter the data of node 1: 2
+Enter the data of node 2: 5
+Enter the data of node 3: 6
+Enter the data of node 4: 7
+SINGLY LINKED LIST CREATED SUCCESSFULLYData in the listData = 2
+Data = 5
+Data = 6
+Data = 7
+nEnter data to insert at middle of the list: 6
+Enter the position to insert new node: 2
+DATA INSERTED SUCCESSFULLYData in the listData = 2
+Data = 6
+Data = 5
+Data = 6
+Data = 7
