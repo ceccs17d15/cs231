@@ -1,4 +1,7 @@
- #include<stdio.h>
+Athira Suresh
+Roll no:15
+
+#include<stdio.h>
  struct poly
  {
 	 int coeff;
@@ -107,3 +110,24 @@
 	printf("%d(x^%d)+",p[k].coeff,p[k].expo);
 	printf("%d(x^%d)",p[term-1].coeff,p[term-1].expo);
 }
+OUTPUT:
+user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+Enter polynomial 1 :
+Enter the number of terms  3
+Enter coeficient for term 1 : 2
+Enter exponent for term 1 : 2
+Enter coeficient for term 2 : 3
+Enter exponent for term 2 : 1
+Enter coeficient for term 3 : 5
+Enter exponent for term 3 : 0
+Enter polynomial 2 :
+Enter the number of terms  2
+Enter coeficient for term 1 : 5
+Enter exponent for term 1 : 2
+Enter coeficient for term 2 : 6
+Enter exponent for term 2 : 0
+Polynomial 1 is :  (2.0x^2) + (3.0x^1) + (5.0x^0)
+Polynomial 2 is :  (5.0x^2) + (6.0x^0)
+Added polynomial is : (7.0x^2) + (3.0x^1) + (11.0x^0)
+
+
