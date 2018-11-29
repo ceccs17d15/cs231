@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include<stdio.h>
 void main()
 { int arr[100],temp[120],i,j,k,n,size,l1,l2,h1,h2;
