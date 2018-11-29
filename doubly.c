@@ -1,3 +1,6 @@
+Athira Suresh
+Roll no:15
+
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
@@ -193,3 +196,70 @@ void deleteFromN(int position)
         printf("Invalid position!");
     }
 }
+output:
+DOUBLY LINKED LIST PROGRAM
+1. Create List
+2. Delete node - from beginning
+3. Delete node - from end
+4. Delete node - from N
+5. Display list
+0. Exit
+Enter your choice 1
+Enter the total number of nodes in list3
+Enter data of 1 node 23
+Enter data of 2 node 24
+Enter data of 3 node 25
+DOUBLY LINKED LIST CREATED SUCCESSFULLYDOUBLY LINKED LIST PROGRAM
+1. Create List
+2. Delete node - from beginning
+3. Delete node - from end
+4. Delete node - from N
+5. Display list
+0. Exit
+Enter your choice 2
+SUCCESSFULLY DELETED NODE FROM BEGINNING OF THE LISTDOUBLY LINKED LIST PROGRAM
+1. Create List
+2. Delete node - from beginning
+3. Delete node - from end
+4. Delete node - from N
+5. Display list
+0. Exit
+Enter your choice 5
+DATA IN THE LISTDATA of 1 node = 24DATA of 2 node = 25DOUBLY LINKED LIST PROGRAM
+1. Create List
+2. Delete node - from beginning
+3. Delete node - from end
+4. Delete node - from N
+5. Display list
+0. Exit
+Enter your choice 1
+Enter the total number of nodes in list4 
+Enter data of 1 node 12
+Enter data of 2 node 13
+Enter data of 3 node 14
+Enter data of 4 node 15
+DOUBLY LINKED LIST CREATED SUCCESSFULLYDOUBLY LINKED LIST PROGRAM
+1. Create List
+2. Delete node - from beginning
+3. Delete node - from end
+4. Delete node - from N
+5. Display list
+0. Exit
+Enter your choice 3
+SUCCESSFULLY DELETED NODE FROM END OF THE LISTDOUBLY LINKED LIST PROGRAM
+1. Create List
+2. Delete node - from beginning
+3. Delete node - from end
+4. Delete node - from N
+5. Display list
+0. Exit
+Enter your choice 4
+Enter the node position which you want to delete5
+Invalid position!DOUBLY LINKED LIST PROGRAM
+1. Create List
+2. Delete node - from beginning
+3. Delete node - from end
+4. Delete node - from N
+5. Display list
+0. Exit
+Enter your choice 
