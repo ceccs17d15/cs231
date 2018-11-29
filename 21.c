@@ -71,3 +71,7 @@ int main() {
 	
 	return (0);
 }
+output:
+user@user-HP-Laptop-15-da0xxx:~$ ./a.out
+Enter arithmatic expression : 2+3+5
+Entered experssion : 2+3+5
