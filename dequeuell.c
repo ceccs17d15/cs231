@@ -1,3 +1,6 @@
+Athira Suresh 
+Roll no:15
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
@@ -144,3 +147,17 @@ int main()
 	}
 	return 0;
 }
+output:user@user-HP-Laptop-15-da0xxx:~/Desktop$ ./a.out
+
+ 1 - Push
+ 2 - Pop
+ 3 - Top
+ 4 - Empty
+ 5 - Exit
+ 6 - Dipslay
+ 7 - Stack Count
+ 8 - Destroy stackEnter choice1
+Enter data 23
+Enter choice1
+Enter data 34
+
