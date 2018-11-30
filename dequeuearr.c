@@ -40,8 +40,8 @@ int main()
         printf("1. Enqueue\n");
         printf("2. Dequeue\n");
         printf("3. Size\n");
-        printf("4. Get Rear\n");
-        printf("5. Get Front\n");
+        printf("4. getRear\n");
+        printf("5. getFront\n");
         printf("0. Exit\n");
         printf("Select an option ");
 
@@ -161,4 +161,148 @@ int getRear()
             ? INT_MIN
             : queue[rear];
 }
+output:
+OUTPUT:
 
+
+	    Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 1
+	Enter data to be inserted : 3
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 1
+	Failed: No space at front
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 4
+	Deleted element : 3
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 2
+	Enter data to be entered : 4
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 5
+	4
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 3
+	Deleted element : 4
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 5
+	Empty Queue
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 1
+	Enter data to be inserted : 5
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 2
+	Enter data to be entered : 5
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 2
+	Enter data to be entered : 6
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 5
+	5
+	5
+	6
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 4
+	Deleted element : 6
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+	Enter your choice : 5
+	5
+	5
+
+		Queue using array
+	1.Enqueue Front
+	2.Enqueue Rear
+	3.Dequeue Front
+	4.Dequeue Rear
+	5.Display
+	6.Exit
+Enter your choice : 6
