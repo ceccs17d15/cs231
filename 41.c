@@ -217,51 +217,57 @@ int main() {
   ROOT=NULL;
 	showMenu();
 }
-output:
-	Binary Tree
-1. Insert
-2. Search
-3. Delete
-4. Print
-5. Exit
-Enter your choice : 1
-Enter data to be inserted : 3
-Succesfully inserted
+output:MENU
+        1.Insertion
+        2.Deletion
+        3.Display
+        4.Exit
+        Enter Choice: 1
 
-	Binary Tree
-1. Insert
-2. Search
-3. Delete
-4. Print
-5. Exit
-Enter your choice : 1
-Enter data to be inserted : 4
-Successfully inserted
+        Enter data: 5
 
-	Binary Tree
-1. Insert
-2. Search
-3. Delete
-4. Print
-5. Exit
-Enter your choice : 1
-Enter data to be inserted : 5
-Successfully inserted
+        MENU
+        1.Insertion
+        2.Deletion
+        3.Display
+        4.Exit
+        Enter Choice: 1
 
-	Binary Tree
-1. Insert
-2. Search
-3. Delete
-4. Print
-5. Exit
-Enter your choice : 2
-Enter data to be searched : 5
-Node found
+        Enter data: 3
 
-	Binary Tree
-1. Insert
-2. Search
-3. Delete
-4. Print
-5. Exit
-Enter your choice:
+        MENU
+        1.Insertion
+        2.Deletion
+        3.Display
+        4.Exit
+        Enter Choice: 1
+
+        Enter data: 8
+
+        MENU
+        1.Insertion
+        2.Deletion
+        3.Display
+        4.Exit
+        Enter Choice: 3
+
+        TREE(in postfix form)
+        3 8 5 
+        MENU
+        1.Insertion
+        2.Deletion
+        3.Display
+        4.Exit
+        Enter Choice: 2
+        Enter Data: 8
+
+        MENU
+        1.Insertion
+        2.Deletion
+        3.Display
+        4.Exit
+        Enter Choice: 3
+
+        TREE(in postfix form)
+3 5 
+	
