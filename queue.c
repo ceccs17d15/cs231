@@ -58,3 +58,27 @@ void main()
     getch();
 }
 output:
+1.Insertion 
+2.Deletion  
+3.Display 
+4.Quit 
+Enter your choice : 1
+Inset the element in queue : 3
+1.Inserion
+2.Deletion
+3.Display 
+4.Quit 
+Enter your choice : 1
+Inset the element in queue : 5
+1.Insertion
+2.Deletion
+3.Display 
+4.Quit 
+Enter your choice : 3
+Queue is : 
+3 5 
+1.Insertion
+2.Deletion
+3.Display 
+4.Quit 
+Enter your choice : 4
